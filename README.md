@@ -1,3 +1,3 @@
 # Dexte-R.github.io
 
-First attempt at a webpage. Included basic static and dynamic features.
+This website was built with HTML, CSS and Bootstrap. Bootstrap components allowed the website to be responsive without the use of Javascript.
