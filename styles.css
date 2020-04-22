@@ -24,29 +24,33 @@ body {
 @media (max-width: 600px) {
  .card-columns {column-count: 1;}
 }
-.flexbox-container {
-  background-color: white;
-  display: flex;
-  justify-content: space-between;
-  align-items: stretch;
-  flex-wrap: wrap;
+.nav-tabs .nav-link.active {
+  background-color: rgb(245,245,245);
+  border-bottom-color: rgb(245,245,245);
+}
+/*.flexbox-container {*/
+/*  background-color: white;*/
+/*  display: flex;*/
+/*  justify-content: space-between;*/
+/*  align-items: stretch;*/
+/*  flex-wrap: wrap;*/
   /*flex-direction: column;*/
 
-}
-.flex-item-1 {
-  background-color: yellow;
-  height: 50px;
-  width: 200px;
-  flex-grow: 1;
-}
-.flex-item-2 {
-  background-color: green;
-  height: 100px;
-  width: 200px;
-  flex-grow: 2;
-}
-.flex-item-3 {
-  background-color: red;
-  height: 125px;
-  width: 200px;
-}
+/*}*/
+/*.flex-item-1 {*/
+/*  background-color: yellow;*/
+/*  height: 50px;*/
+/*  width: 200px;*/
+/*  flex-grow: 1;*/
+/*}*/
+/*.flex-item-2 {*/
+/*  background-color: green;*/
+/*  height: 100px;*/
+/*  width: 200px;*/
+/*  flex-grow: 2;*/
+/*}*/
+/*.flex-item-3 {*/
+/*  background-color: red;*/
+/*  height: 125px;*/
+/*  width: 200px;*/
+/*}*/

@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <!-- Latest compiled and minified CSS -->
+        <meta name="author" content="Dexter Huang">
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+        <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+        <link href="styles.css" rel="stylesheet">
+        <title>Dexter's website</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top ">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#collapsingnavbar" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+          <ul class="navbar-nav flex-row float-left order-2">
+            <li class="nav-item"><a class="nav-link px-2" href="mailto:dexterhuang4577@gmail.com" data-toggle="tooltip" data-placement="bottom" title="Email me">
+                <span class="fa fa-envelope-o"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://github.com/Dexte-R"><span class="fa fa-github"></span></a></li>
+            <li class="nav-item"><a class="nav-link px-2" href="https://www.linkedin.com/in/dexter-huang-5387541a6/"><span class="fa fa-linkedin"></span></a></li>
+          </ul>
+
+          <div class="collapse navbar-collapse" id="collapsingnavbar">
+            <ul class="navbar-nav">
+              <li class="nav-item"><a class="nav-link" href="index.html"><p class="font-weight-bold my-auto">Home</p></a></li>
+              <li class="nav-item"><a class="nav-link" href="education.html">Education</a></li>
+              <li class="nav-item active"><a class="nav-link" href="tech.html">Tech</a></li>
+              <li class="nav-item"><a class="nav-link" href="NS.html">National Service</a></li>
+              <li class="nav-item"><a class="nav-link" href="hobbies.html">Hobbies</a></li>
+            </ul>
+          </div>
+        </nav>
+
+
+    <div class="container d-flex justify-content-center" style="margin:60px auto auto auto">
+        <div class="card-columns" id="tech">
+            <div class="card" style="margin-bottom:10px">
+              <div class="card-body">
+                <h5 class="card-title">Web Programming</h5>
+                    <p class="card-text">
+                      I am currently learning about web programming. This website is my first project and it runs purely on front-end,
+                      built with HTML5, CSS and Bootstrap 4. Bootstrap 4 allows this website to
+                      be mobile responsive with concise and clean code. Scale the browser size to view the changes to the website's layout! You can view my source code
+                      <a href="https://github.com/Dexte-R/Dexte-R.github.io">here</a>. My next project is to design a simple full stack web application.
+                    </p>
+              </div>
+            </div>
+
+            <div class="card" style="margin-bottom:10px">
+              <div class="card-body" style="padding-bottom:60px">
+                <h5 class="card-title">C Programming</h5>
+                <p class="card-text">
+                  I am learning computer science fundamentals through C programming in Harvard's CS50x online course. The main concepts I have learnt so far are algorithms, data structures and a computer's memory usage.
+                  The remaining part of the course is python programming which I have put on hold to free up time for web programming.
+                  View my code <a href="https://github.com/Dexte-R/CS50x-Pset">here</a>.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" style="margin-bottom:10px">
+              <div class="card-body">
+                <h5 class="card-title">SQL</h5>
+                <p class="card-text">
+                    I am able to write SQL queries on SQLite 3 to query databases. View my code
+                    <a href="https://github.com/Dexte-R/CS50x-Pset/tree/master/Pset%207">here</a>.
+                </p>
+              </div>
+            </div>
+
+            <div class="card" style="margin-bottom:10px">
+              <div class="card-body">
+                <h5 class="card-title">Blender</h5>
+                <p class="card-text">
+                  Using <a href="https://www.blender.org/">Blender</a> a free open-source software, I am proficient
+                  in editing 3-dimensional geometries on the graphical user interface. I am able to perform basic scripting
+                  with its in-built python modules.
+                </p>
+              </div>
+            </div>
+
+             <div class="card" style="margin-bottom:10px">
+              <div class="card-header">
+                <h5 class="card-title">Machine Learning in Python</h5>
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#fyp">FYP</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#datathon">Datathon</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#others">Others</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <div class="card-body justify-content-center tab-pane fade show active" id="fyp">
+                  <p class="card-text">
+                    <b class="float-left">Final Year Project (Aug 2019 - April 2020)</b><br />
+                    The aim of my project was to develop a machine learning based surrogate model to predict the
+                    surface temperature of surfaces found in an urban environment. This model would serve as
+                    a quick and accurate tool for building developers to quantify the changes to surface temperature based
+                    on their design choices. The machine learning algorithm I was used was support vector regression due to its reported efficiency on small datasets.
+
+                    <p>
+                    In this project, I gained proficiency in the full machine learning pipeline which consists of -
+                    (1) data collection; (2) data preprocessing; (3) feature selection/engineering; (4) hyperparameter optimisation and (5) model selection and evaluation.
+                    </p>
+                  </p>
+                </div>
+
+                <div class="card-body tab-pane fade" id="datathon">
+                  <p class="card-text">
+                      <b>IoT Datathon 3.0 - #AISAVELIVES</b><br />
+                      The theme of this datathon was to deliver a machine learning model to predict a dengue outbreak in Singapore, 8 weeks in advance
+                      based on the historical data on weather and dengue cases. My goupmates and I created a lightweight time series forecasting regression model based on
+                      the XGBoost (eXtreme Gradient Boosting) algorithm to predict the number of dengue cases 8 weeks in advance.
+                      Our team was one of the top 8 finalists in this datathon, accredited
+                      <a href="https://user-images.githubusercontent.com/62101821/79941022-e7aba200-8495-11ea-8cb8-09cec12979c3.png">here</a>.
+                  </p>
+                </div>
+
+                <div class="card-body tab-pane fade" id="others">
+                  <p class="card-text">
+                      <b>Mini project: predict survival on the Titanic</b><br />
+                        The aim of this project is to create a supervised machine learning classification model to predict the survival of the Titanic's passengers.
+                        I experimented with different classification algorithms and discussed in depth about coding a full machine learning from scratch, available
+                      <a href="https://www.kaggle.com/daxtar/data-science-journey">here</a>.
+                  </p>
+                </div>
+              </div>
+            </div>
+
+        </div>
+    </div>
+
+    </body>
+</html>
