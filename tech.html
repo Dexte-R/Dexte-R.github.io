@@ -38,19 +38,82 @@
             </ul>
           </div>
         </nav>
-
+    
 
     <div class="container d-flex justify-content-center" style="margin:60px auto auto auto">
         <div class="card-columns" id="tech">
             <div class="card" style="margin-bottom:10px">
-              <div class="card-body">
-                <h5 class="card-title">Web Programming</h5>
+              <div class="card-header">
+                <h5 class="card-title">Web Development</h5>
+                <ul class="nav nav-tabs card-header-tabs">
+                  <li class="nav-item">
+                    <a class="nav-link active" data-toggle="tab" href="#portfolio">Portfolio</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#CS50finance">Stock Exchange Simulator</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" data-toggle="tab" href="#project3">Project 3</a>
+                  </li>
+                </ul>
+              </div>
+              <div class="tab-content">
+                <div class="card-body justify-content-center tab-pane fade show active" id="portfolio">
+                  <p class="card-text">
                     <p class="card-text">
-                      I am currently learning about web programming. This website is my first project and it runs purely on front-end,
-                      built with HTML5, CSS and Bootstrap 4. Bootstrap 4 allows this website to
-                      be mobile responsive with concise and clean code. Scale the browser size to view the changes to the website's layout! You can view my source code
-                      <a href="https://github.com/Dexte-R/Dexte-R.github.io">here</a>. My next project is to design a simple full stack web application.
+                      My first project is a front-end development project to build a personal portfolio website using HTML5, CSS and Bootstrap 4. 
+                      Bootstrap 4 allows this website to be mobile responsive with concise and clean code. 
+                      Scale the browser size to view the changes to the website's layout! You can view my source code
+                      <a href="https://github.com/Dexte-R/Dexte-R.github.io">here</a>. 
                     </p>
+                </div>
+
+                <div class="card-body tab-pane fade" id="CS50finance">
+                  <p class="card-text">
+                    In this project I build a simple web application that allows users to simulate buying and selling stocks they "own".
+                    A small part of the web application is made available by Harvard's CS50x <a href="https://cs50.harvard.edu/x/2020/tracks/web/finance/">web programming track</a>. 
+                    I implemented the features that would allow a user to do the following
+                    <ol>
+                      <li>
+                        Register. Create the app route to allow new users to register for an account. New user added into the SQL database.
+                      </li>
+                      <li>
+                        Quote. Allow user to search for a stock and get a quotation of its current price.
+                      </li>
+                      <li>
+                        Buy. Allow user to buy a number of shares. Transaction added into SQL database.
+                      </li>
+                      <li>
+                        Index. Summarises the shares of each stock, the value and the total cash the user has.
+                      </li>
+                      <li>
+                        Sell. Allow user to sell a number of shares. Transaction added into SQL database.
+                      </li>
+                      <li>
+                        History. Displays all the transaction history according to the transaction date. Shows the number of shares sold/bought and at what price.
+                      </li>
+                      <li>
+                        Sort transaction history. Allows the user to sort their transaction history in chronological order (or in reverse order).
+                      </li>
+                    </ol>
+                    The back-end is developed using Flask framework and jinja templating language. 
+                    The front-end is developed using HTML, CSS and Bootstrap4.
+                    The database is managed by SQLite3.
+
+                    View the code I have written for this project
+                      <a href="https://github.com/Dexte-R/CS50x-Pset/tree/master/Pset%208/Finance">here</a>.
+                  </p>
+                </div>
+
+                <div class="card-body tab-pane fade" id="project3">
+                  <p class="card-text">
+                    This is the final project done in fulfilment of Harvard's CS50x online course. I aim to create a full-stack 
+                    application. I am currenly identifying problems/areas where the use of a web application would bring positive changes.
+                    
+                    More information on the project specifications are available
+                      <a href="https://cs50.harvard.edu/x/2020/project/">here</a>.
+                  </p>
+                </div>
               </div>
             </div>
 
@@ -59,7 +122,7 @@
                 <h5 class="card-title">C Programming</h5>
                 <p class="card-text">
                   I am learning computer science fundamentals through C programming in Harvard's CS50x online course. The main concepts I have learnt so far are algorithms, data structures and a computer's memory usage.
-                  The remaining part of the course is python programming which I have put on hold to free up time for web programming.
+                  The remaining part of the course is python programming which I have put on hold to free up time for development.
                   View my code <a href="https://github.com/Dexte-R/CS50x-Pset">here</a>.
                 </p>
               </div>
@@ -69,8 +132,8 @@
               <div class="card-body">
                 <h5 class="card-title">SQL</h5>
                 <p class="card-text">
-                    I am able to write SQL queries on SQLite 3 to query databases. View my code
-                    <a href="https://github.com/Dexte-R/CS50x-Pset/tree/master/Pset%207">here</a>.
+                    I am able to manipulate data in databases using SQL queries. View my code
+                    <a href="https://github.com/Dexte-R/CS50x-Pset/tree/master/Pset%207">here</a>. 
                 </p>
               </div>
             </div>
