@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/dexte-r.github.io/static/css/main.8c8b27cf.chunk.css",
+    "main.js": "/dexte-r.github.io/static/js/main.cf381b45.chunk.js",
+    "main.js.map": "/dexte-r.github.io/static/js/main.cf381b45.chunk.js.map",
+    "runtime-main.js": "/dexte-r.github.io/static/js/runtime-main.e8c1018e.js",
+    "runtime-main.js.map": "/dexte-r.github.io/static/js/runtime-main.e8c1018e.js.map",
+    "static/js/2.673123ad.chunk.js": "/dexte-r.github.io/static/js/2.673123ad.chunk.js",
+    "static/js/2.673123ad.chunk.js.map": "/dexte-r.github.io/static/js/2.673123ad.chunk.js.map",
+    "static/js/3.2b77d927.chunk.js": "/dexte-r.github.io/static/js/3.2b77d927.chunk.js",
+    "static/js/3.2b77d927.chunk.js.map": "/dexte-r.github.io/static/js/3.2b77d927.chunk.js.map",
+    "index.html": "/dexte-r.github.io/index.html",
+    "static/css/main.8c8b27cf.chunk.css.map": "/dexte-r.github.io/static/css/main.8c8b27cf.chunk.css.map",
+    "static/js/2.673123ad.chunk.js.LICENSE.txt": "/dexte-r.github.io/static/js/2.673123ad.chunk.js.LICENSE.txt",
+    "static/media/logo.103b5fa1.svg": "/dexte-r.github.io/static/media/logo.103b5fa1.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.e8c1018e.js",
+    "static/js/2.673123ad.chunk.js",
+    "static/css/main.8c8b27cf.chunk.css",
+    "static/js/main.cf381b45.chunk.js"
+  ]
+}
